@@ -11,12 +11,12 @@ function App() {
     setEmail(event.target.value);
   }
 
-  function handlePassword(event) {
-    setPassword(event.target.value);
-  }
-
   function handleUsername(event) {
     setUsername(event.target.value);
+  }
+
+  function handlePassword(event) {
+    setPassword(event.target.value);
   }
 
   async function handleSubmit(event) {
