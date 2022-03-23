@@ -21,16 +21,7 @@ function App() {
     getData();
   }, []);
 
-  return <div>{person}</div>;
+  return <div>My favorite Star Wars Character is: {person}</div>;
 }
 
 export default App;
-
-useEffect(
-  () => {
-    //function logic
-  },
-  [
-    /*dependency array*/
-  ]
-);
