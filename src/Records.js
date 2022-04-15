@@ -14,6 +14,7 @@ function Records() {
       {users.map((user, index) => (
         <User name={user.name} hobby={user.hobby} key={index} />
       ))}
+      
       <h1>Users</h1>
       {users.map((user, index) => (
         <div key={index}>
